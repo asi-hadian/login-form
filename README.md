@@ -53,3 +53,7 @@ json-server --watch db.json --port 5000
 ## Live Demo
 
 👉 https://asi-hadian.github.io/login-form/login.html
+
+## note:
+This project uses JSON Server as a local backend.
+GitHub Pages does not support backend APIs, so the login and user management features only work locally.
