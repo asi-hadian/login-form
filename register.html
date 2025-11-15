@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>register form</title>
+    <link rel="stylesheet" href="styles/register.css">
+    <link rel="stylesheet" href="styles/global.css">
+</head>
+<body>
+    <div class="register-container">
+        <h2>Create an account</h2>
+
+        <form id="register-form">
+            <div class="input-group">
+                <label for="first-name">First Name</label>
+                <input 
+                type="text"
+                id="first-name"
+                placeholder="Enter your first name"
+                required
+                >
+            </div>
+
+            <div class="input-group">
+                <label for="last-name">Last Name</label>
+                <input 
+                type="text"
+                id="last-name"
+                placeholder="Enter your Last name"
+                required
+                >
+            </div>
+
+            <div class="input-group">
+                <label for="email">Email</label>
+                <input 
+                type="text"
+                id="email"
+                placeholder="Enter your Email"
+                required
+                >
+            </div>
+
+            <div class="input-group">
+                <label for="password">Password</label>
+                <input 
+                type="password"
+                id="password"
+                placeholder="Enter your password"
+                required
+                >
+            </div>
+
+            <div class="input-group">
+                <label for="age">Age</label>
+                <input 
+                type="number"
+                id="age"
+                placeholder="Enter your Age"
+                required
+                >
+            </div>
+
+            <div class="input-group">
+                <label for="gender">Gender</label>
+                <select  id="gender" required>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+
+            <button type="submit" class="register-btn">Register</button>
+            <div class="login-link">
+                <p>Already register? <a href="/login.html">please login</a></p>
+            </div>
+        </form>
+    </div>
+  <script src="js/register.js"></script>  
+</body>
+</html>

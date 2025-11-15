@@ -1,0 +1,23 @@
+{
+  "users": [
+    {
+      "firstName": "asiyeh",
+      "lastName": "hadian",
+      "email": "asiyeh.hadian@gmail.com",
+      "password": "666",
+      "age": 38,
+      "gender": "female",
+      "role": "admin",
+      "id": 1
+    },
+    {
+      "firstName": "taranom",
+      "lastName": "irani",
+      "email": "taranom@gmail.com",
+      "age": 13,
+      "password": "139113",
+      "role": "user",
+      "id": 2
+    }
+  ]
+}

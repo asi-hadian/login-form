@@ -1,0 +1,166 @@
+.admin-container{
+    width: 100%;
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 40px;
+    background-color: #fff;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    font-family: 'Arial',sans-serif;
+    background-color: #f4f6f9;
+    border-radius: 10px;
+}  
+
+.admin-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.admin-header h2{
+    color: #333;
+    font-size: 28px;
+}
+.logout-btn{
+    padding: 12px 25px;
+    font-size: 14px;
+    cursor: pointer;
+    background-color: rgb(246, 111, 111);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+.logout-btn:hover{
+    background-color: rgb(200, 5, 5);
+}
+
+#user-list{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+#user-list th,
+#user-list td{
+    padding: 15px;
+    border: 1px solid #ddd;
+}
+#user-list th{
+    background-color: blue;
+    color: white;
+    font-size: 14px;
+}
+#user-list td{
+    color: #333;
+    font-size: 16px;
+}
+#user-list tr:nth-child(even){
+    background-color: #f9f9f9;
+}
+#user-list tr:hover{
+    background-color: #f1f1f1;
+}
+button{
+    padding: 8px 16px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    transition: all 0.3s;
+    border: none;
+}
+.delete-btn{
+    background-color: #ce0808cf;
+    color: white;
+}
+.edit-btn{
+    background-color: #0000ffab;
+    color: white;
+    margin-right: 5px;
+}
+button:hover{
+    transform: scale(1.05);
+}
+
+/* ****************modal************* */
+.modal{
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    overflow: auto;
+    padding-top: 60px;
+}
+
+.modal-content{
+    background-color: #fff;
+    margin: 5% auto;
+    padding: 30px;
+    border-radius: 8px;
+    width: 80%;
+    max-width: 400px;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.close-btn{
+    color:#aaa;
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+    top:10px;
+    right: 25px;
+    cursor: pointer;
+}
+
+.close-btn:hover,
+.close-btn:focus{
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.input-group{
+    margin-bottom: 20px;
+}
+
+.input-group label{
+    font-size: 14px;
+    color:#666;
+    margin-bottom: 5px;
+    display: block;
+}
+.input-group input,
+.input-group select{
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border:1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    transition: all 0.3s ease;
+
+}
+
+.input-group input:focus ,.input-group select:focus{
+    /* background-color: #007baa; */
+    outline: none;
+}
+.edit-user-btn{
+    width: 100%;
+        background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.edit-user-btn:hover{
+   background-color:#0776ed;
+}
